@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SQS.iml" filepath="$PROJECT_DIR$/SQS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorldFunction/SQSSubmodule.iml" filepath="$PROJECT_DIR$/HelloWorldFunction/SQSSubmodule.iml" />
+    </modules>
+  </component>
+</project>

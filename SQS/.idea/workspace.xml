@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cee6b370-72e2-4c00-9896-557edd0a140c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dYWARGrOFqPDKYimnedCVG82CV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CollectionOfFailedTries/book/HelloWorldZip/HelloWorldLambdaJava" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="aws" />
+  </component>
+  <component name="RunManager" selected="AWS Lambda.[Remote] WeatherQuery">
+    <configuration name="DirectToSQS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FrugalConsumer.DirectToSQS" />
+      <module name="SQSSubmodule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FrugalConsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[Local] HelloWorldFunction" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="debugHost" value="localhost" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" />
+      <option name="logicalFunctionName" value="HelloWorldFunction" />
+      <option name="memorySize" value="128" />
+      <option name="runtime" />
+      <option name="templateFile" value="$PROJECT_DIR$/template.yaml" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="true" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" />
+        <option name="additionalLocalArgs" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] DistributedTriggerToSnS" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-west-2" />
+      <option name="functionName" value="DistributedTriggerToSnS" />
+      <option name="input" value="{&#10;  &quot;body&quot;: &quot;{\&quot;test\&quot;:\&quot;body\&quot;}&quot;,&#10;  &quot;resource&quot;: &quot;/{proxy+}&quot;,&#10;  &quot;path&quot;: &quot;/path/to/resource&quot;,&#10;  &quot;httpMethod&quot;: &quot;POST&quot;,&#10;  &quot;queryStringParameters&quot;: {&#10;    &quot;foo&quot;: &quot;bar&quot;&#10;  },&#10;  &quot;pathParameters&quot;: {&#10;    &quot;proxy&quot;: &quot;path/to/resource&quot;&#10;  },&#10;  &quot;stageVariables&quot;: {&#10;    &quot;baz&quot;: &quot;qux&quot;&#10;  },&#10;  &quot;headers&quot;: {&#10;    &quot;Accept&quot;: &quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&quot;,&#10;    &quot;Accept-Encoding&quot;: &quot;gzip, deflate, sdch&quot;,&#10;    &quot;Accept-Language&quot;: &quot;en-US,en;q=0.8&quot;,&#10;    &quot;Cache-Control&quot;: &quot;max-age=0&quot;,&#10;    &quot;CloudFront-Forwarded-Proto&quot;: &quot;https&quot;,&#10;    &quot;CloudFront-Is-Desktop-Viewer&quot;: &quot;true&quot;,&#10;    &quot;CloudFront-Is-Mobile-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-SmartTV-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-Tablet-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Viewer-Country&quot;: &quot;US&quot;,&#10;    &quot;Host&quot;: &quot;1234567890.execute-api.{dns_suffix}&quot;,&#10;    &quot;Upgrade-Insecure-Requests&quot;: &quot;1&quot;,&#10;    &quot;User-Agent&quot;: &quot;Custom User Agent String&quot;,&#10;    &quot;Via&quot;: &quot;1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)&quot;,&#10;    &quot;X-Amz-Cf-Id&quot;: &quot;cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==&quot;,&#10;    &quot;X-Forwarded-For&quot;: &quot;127.0.0.1, 127.0.0.2&quot;,&#10;    &quot;X-Forwarded-Port&quot;: &quot;443&quot;,&#10;    &quot;X-Forwarded-Proto&quot;: &quot;https&quot;&#10;  },&#10;  &quot;requestContext&quot;: {&#10;    &quot;accountId&quot;: &quot;123456789012&quot;,&#10;    &quot;resourceId&quot;: &quot;123456&quot;,&#10;    &quot;stage&quot;: &quot;prod&quot;,&#10;    &quot;requestId&quot;: &quot;c6af9ac6-7b61-11e6-9a41-93e8deadbeef&quot;,&#10;    &quot;identity&quot;: {&#10;      &quot;cognitoIdentityPoolId&quot;: null,&#10;      &quot;accountId&quot;: null,&#10;      &quot;cognitoIdentityId&quot;: null,&#10;      &quot;caller&quot;: null,&#10;      &quot;apiKey&quot;: null,&#10;      &quot;sourceIp&quot;: &quot;127.0.0.1&quot;,&#10;      &quot;cognitoAuthenticationType&quot;: null,&#10;      &quot;cognitoAuthenticationProvider&quot;: null,&#10;      &quot;userArn&quot;: null,&#10;      &quot;userAgent&quot;: &quot;Custom User Agent String&quot;,&#10;      &quot;user&quot;: null&#10;    },&#10;    &quot;resourcePath&quot;: &quot;/{proxy+}&quot;,&#10;    &quot;httpMethod&quot;: &quot;POST&quot;,&#10;    &quot;apiId&quot;: &quot;1234567890&quot;&#10;  }&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] FrugalConsumerToS3" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-west-2" />
+      <option name="functionName" value="FrugalConsumerToS3" />
+      <option name="input" value="{&#10;  &quot;body&quot;: &quot;{\&quot;test\&quot;:\&quot;body\&quot;}&quot;,&#10;  &quot;resource&quot;: &quot;/{proxy+}&quot;,&#10;  &quot;path&quot;: &quot;/path/to/resource&quot;,&#10;  &quot;httpMethod&quot;: &quot;POST&quot;,&#10;  &quot;queryStringParameters&quot;: {&#10;    &quot;foo&quot;: &quot;bar&quot;&#10;  },&#10;  &quot;pathParameters&quot;: {&#10;    &quot;proxy&quot;: &quot;path/to/resource&quot;&#10;  },&#10;  &quot;stageVariables&quot;: {&#10;    &quot;baz&quot;: &quot;qux&quot;&#10;  },&#10;  &quot;headers&quot;: {&#10;    &quot;Accept&quot;: &quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&quot;,&#10;    &quot;Accept-Encoding&quot;: &quot;gzip, deflate, sdch&quot;,&#10;    &quot;Accept-Language&quot;: &quot;en-US,en;q=0.8&quot;,&#10;    &quot;Cache-Control&quot;: &quot;max-age=0&quot;,&#10;    &quot;CloudFront-Forwarded-Proto&quot;: &quot;https&quot;,&#10;    &quot;CloudFront-Is-Desktop-Viewer&quot;: &quot;true&quot;,&#10;    &quot;CloudFront-Is-Mobile-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-SmartTV-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-Tablet-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Viewer-Country&quot;: &quot;US&quot;,&#10;    &quot;Host&quot;: &quot;1234567890.execute-api.{dns_suffix}&quot;,&#10;    &quot;Upgrade-Insecure-Requests&quot;: &quot;1&quot;,&#10;    &quot;User-Agent&quot;: &quot;Custom User Agent String&quot;,&#10;    &quot;Via&quot;: &quot;1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)&quot;,&#10;    &quot;X-Amz-Cf-Id&quot;: &quot;cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==&quot;,&#10;    &quot;X-Forwarded-For&quot;: &quot;127.0.0.1, 127.0.0.2&quot;,&#10;    &quot;X-Forwarded-Port&quot;: &quot;443&quot;,&#10;    &quot;X-Forwarded-Proto&quot;: &quot;https&quot;&#10;  },&#10;  &quot;requestContext&quot;: {&#10;    &quot;accountId&quot;: &quot;123456789012&quot;,&#10;    &quot;resourceId&quot;: &quot;123456&quot;,&#10;    &quot;stage&quot;: &quot;prod&quot;,&#10;    &quot;requestId&quot;: &quot;c6af9ac6-7b61-11e6-9a41-93e8deadbeef&quot;,&#10;    &quot;identity&quot;: {&#10;      &quot;cognitoIdentityPoolId&quot;: null,&#10;      &quot;accountId&quot;: null,&#10;      &quot;cognitoIdentityId&quot;: null,&#10;      &quot;caller&quot;: null,&#10;      &quot;apiKey&quot;: null,&#10;      &quot;sourceIp&quot;: &quot;127.0.0.1&quot;,&#10;      &quot;cognitoAuthenticationType&quot;: null,&#10;      &quot;cognitoAuthenticationProvider&quot;: null,&#10;      &quot;userArn&quot;: null,&#10;      &quot;userAgent&quot;: &quot;Custom User Agent String&quot;,&#10;      &quot;user&quot;: null&#10;    },&#10;    &quot;resourcePath&quot;: &quot;/{proxy+}&quot;,&#10;    &quot;httpMethod&quot;: &quot;POST&quot;,&#10;    &quot;apiId&quot;: &quot;1234567890&quot;&#10;  }&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] WeatherInsert" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-west-2" />
+      <option name="functionName" value="WeatherInsert" />
+      <option name="input" value="{&#10;  &quot;body&quot;: &quot;{\&quot;test\&quot;:\&quot;body\&quot;}&quot;,&#10;  &quot;resource&quot;: &quot;/{proxy+}&quot;,&#10;  &quot;path&quot;: &quot;/path/to/resource&quot;,&#10;  &quot;httpMethod&quot;: &quot;POST&quot;,&#10;  &quot;queryStringParameters&quot;: {&#10;    &quot;foo&quot;: &quot;bar&quot;&#10;  },&#10;  &quot;pathParameters&quot;: {&#10;    &quot;proxy&quot;: &quot;path/to/resource&quot;&#10;  },&#10;  &quot;stageVariables&quot;: {&#10;    &quot;baz&quot;: &quot;qux&quot;&#10;  },&#10;  &quot;headers&quot;: {&#10;    &quot;Accept&quot;: &quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&quot;,&#10;    &quot;Accept-Encoding&quot;: &quot;gzip, deflate, sdch&quot;,&#10;    &quot;Accept-Language&quot;: &quot;en-US,en;q=0.8&quot;,&#10;    &quot;Cache-Control&quot;: &quot;max-age=0&quot;,&#10;    &quot;CloudFront-Forwarded-Proto&quot;: &quot;https&quot;,&#10;    &quot;CloudFront-Is-Desktop-Viewer&quot;: &quot;true&quot;,&#10;    &quot;CloudFront-Is-Mobile-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-SmartTV-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-Tablet-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Viewer-Country&quot;: &quot;US&quot;,&#10;    &quot;Host&quot;: &quot;1234567890.execute-api.{dns_suffix}&quot;,&#10;    &quot;Upgrade-Insecure-Requests&quot;: &quot;1&quot;,&#10;    &quot;User-Agent&quot;: &quot;Custom User Agent String&quot;,&#10;    &quot;Via&quot;: &quot;1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)&quot;,&#10;    &quot;X-Amz-Cf-Id&quot;: &quot;cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==&quot;,&#10;    &quot;X-Forwarded-For&quot;: &quot;127.0.0.1, 127.0.0.2&quot;,&#10;    &quot;X-Forwarded-Port&quot;: &quot;443&quot;,&#10;    &quot;X-Forwarded-Proto&quot;: &quot;https&quot;&#10;  },&#10;  &quot;requestContext&quot;: {&#10;    &quot;accountId&quot;: &quot;123456789012&quot;,&#10;    &quot;resourceId&quot;: &quot;123456&quot;,&#10;    &quot;stage&quot;: &quot;prod&quot;,&#10;    &quot;requestId&quot;: &quot;c6af9ac6-7b61-11e6-9a41-93e8deadbeef&quot;,&#10;    &quot;identity&quot;: {&#10;      &quot;cognitoIdentityPoolId&quot;: null,&#10;      &quot;accountId&quot;: null,&#10;      &quot;cognitoIdentityId&quot;: null,&#10;      &quot;caller&quot;: null,&#10;      &quot;apiKey&quot;: null,&#10;      &quot;sourceIp&quot;: &quot;127.0.0.1&quot;,&#10;      &quot;cognitoAuthenticationType&quot;: null,&#10;      &quot;cognitoAuthenticationProvider&quot;: null,&#10;      &quot;userArn&quot;: null,&#10;      &quot;userAgent&quot;: &quot;Custom User Agent String&quot;,&#10;      &quot;user&quot;: null&#10;    },&#10;    &quot;resourcePath&quot;: &quot;/{proxy+}&quot;,&#10;    &quot;httpMethod&quot;: &quot;POST&quot;,&#10;    &quot;apiId&quot;: &quot;1234567890&quot;&#10;  }&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] WeatherQuery" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-west-2" />
+      <option name="functionName" value="WeatherQuery" />
+      <option name="input" value="{&#10;  &quot;body&quot;: &quot;{\&quot;test\&quot;:\&quot;body\&quot;}&quot;,&#10;  &quot;resource&quot;: &quot;/{proxy+}&quot;,&#10;  &quot;path&quot;: &quot;/path/to/resource&quot;,&#10;  &quot;httpMethod&quot;: &quot;POST&quot;,&#10;  &quot;queryStringParameters&quot;: {&#10;    &quot;foo&quot;: &quot;bar&quot;&#10;  },&#10;  &quot;pathParameters&quot;: {&#10;    &quot;proxy&quot;: &quot;path/to/resource&quot;&#10;  },&#10;  &quot;stageVariables&quot;: {&#10;    &quot;baz&quot;: &quot;qux&quot;&#10;  },&#10;  &quot;headers&quot;: {&#10;    &quot;Accept&quot;: &quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&quot;,&#10;    &quot;Accept-Encoding&quot;: &quot;gzip, deflate, sdch&quot;,&#10;    &quot;Accept-Language&quot;: &quot;en-US,en;q=0.8&quot;,&#10;    &quot;Cache-Control&quot;: &quot;max-age=0&quot;,&#10;    &quot;CloudFront-Forwarded-Proto&quot;: &quot;https&quot;,&#10;    &quot;CloudFront-Is-Desktop-Viewer&quot;: &quot;true&quot;,&#10;    &quot;CloudFront-Is-Mobile-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-SmartTV-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-Tablet-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Viewer-Country&quot;: &quot;US&quot;,&#10;    &quot;Host&quot;: &quot;1234567890.execute-api.{dns_suffix}&quot;,&#10;    &quot;Upgrade-Insecure-Requests&quot;: &quot;1&quot;,&#10;    &quot;User-Agent&quot;: &quot;Custom User Agent String&quot;,&#10;    &quot;Via&quot;: &quot;1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)&quot;,&#10;    &quot;X-Amz-Cf-Id&quot;: &quot;cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==&quot;,&#10;    &quot;X-Forwarded-For&quot;: &quot;127.0.0.1, 127.0.0.2&quot;,&#10;    &quot;X-Forwarded-Port&quot;: &quot;443&quot;,&#10;    &quot;X-Forwarded-Proto&quot;: &quot;https&quot;&#10;  },&#10;  &quot;requestContext&quot;: {&#10;    &quot;accountId&quot;: &quot;123456789012&quot;,&#10;    &quot;resourceId&quot;: &quot;123456&quot;,&#10;    &quot;stage&quot;: &quot;prod&quot;,&#10;    &quot;requestId&quot;: &quot;c6af9ac6-7b61-11e6-9a41-93e8deadbeef&quot;,&#10;    &quot;identity&quot;: {&#10;      &quot;cognitoIdentityPoolId&quot;: null,&#10;      &quot;accountId&quot;: null,&#10;      &quot;cognitoIdentityId&quot;: null,&#10;      &quot;caller&quot;: null,&#10;      &quot;apiKey&quot;: null,&#10;      &quot;sourceIp&quot;: &quot;127.0.0.1&quot;,&#10;      &quot;cognitoAuthenticationType&quot;: null,&#10;      &quot;cognitoAuthenticationProvider&quot;: null,&#10;      &quot;userArn&quot;: null,&#10;      &quot;userAgent&quot;: &quot;Custom User Agent String&quot;,&#10;      &quot;user&quot;: null&#10;    },&#10;    &quot;resourcePath&quot;: &quot;/{proxy+}&quot;,&#10;    &quot;httpMethod&quot;: &quot;POST&quot;,&#10;    &quot;apiId&quot;: &quot;1234567890&quot;&#10;  }&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="AWS Lambda.[Remote] WeatherQuery" />
+        <item itemvalue="AWS Lambda.[Remote] WeatherInsert" />
+        <item itemvalue="AWS Lambda.[Remote] DistributedTriggerToSnS" />
+        <item itemvalue="AWS Lambda.[Remote] FrugalConsumerToS3" />
+        <item itemvalue="Application.DirectToSQS" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cee6b370-72e2-4c00-9896-557edd0a140c" name="Default Changelist" comment="" />
+      <created>1592602362903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592602362903</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2475" y="260" width="800" height="677" key="#Project_Structure" timestamp="1592602553180">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2475" y="260" width="800" height="677" key="#Project_Structure/67.27.1853.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1592602553180" />
+    <state x="412" y="154" width="752" height="921" key="#[Local]_App" timestamp="1592861226853">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="412" y="154" width="752" height="921" key="#[Local]_App/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1592861226853" />
+    <state x="612" y="152" width="752" height="921" key="#[Local]_Handler" timestamp="1592858517210">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="612" y="152" width="752" height="921" key="#[Local]_Handler/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1592858517210" />
+    <state x="264" y="145" width="1332" height="895" key="#[Local]_LambdaToSQS" timestamp="1592928657580">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="264" y="145" width="1332" height="895" key="#[Local]_LambdaToSQS/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1592928657580" />
+    <state x="627" y="258" width="642" height="708" key="#[Remote]_AWSDocHandlerSQS" timestamp="1592925199493">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="627" y="258" width="642" height="708" key="#[Remote]_AWSDocHandlerSQS/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1592925199493" />
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_DistributedTriggerToSnS" timestamp="1592997372730">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_DistributedTriggerToSnS/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1592997372730" />
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_FrugalConsumerToS3" timestamp="1592927902528">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_FrugalConsumerToS3/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1592927902528" />
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_ScalableWebhook" timestamp="1592859383852">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_ScalableWebhook/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1592859383852" />
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_WeatherInsert" timestamp="1593032379359">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_WeatherInsert/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593032379359" />
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_WeatherQuery" timestamp="1593081132629">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="667" y="258" width="642" height="708" key="#[Remote]_WeatherQuery/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593081132629" />
+    <state x="801" y="324" width="548" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1593095067697">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="801" y="324" width="548" height="577" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593095067697" />
+    <state x="676" y="349" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1593032557436">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="676" y="349" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593032557436" />
+    <state x="776" y="370" width="424" height="484" key="FileChooserDialogImpl" timestamp="1593069455578">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="2655" y="351" key="FileChooserDialogImpl/67.27.1853.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1592899728993" />
+    <state x="776" y="370" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593069455578" />
+    <state width="1807" height="257" key="GridCell.Tab.0.bottom" timestamp="1593101086699">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1807" height="257" key="GridCell.Tab.0.bottom/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593101086699" />
+    <state width="1807" height="257" key="GridCell.Tab.0.center" timestamp="1593101086699">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1807" height="257" key="GridCell.Tab.0.center/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593101086699" />
+    <state width="1807" height="257" key="GridCell.Tab.0.left" timestamp="1593101086699">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1807" height="257" key="GridCell.Tab.0.left/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593101086699" />
+    <state width="1807" height="257" key="GridCell.Tab.0.right" timestamp="1593101086699">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state width="1807" height="257" key="GridCell.Tab.0.right/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593101086699" />
+    <state x="662" y="443" key="com.intellij.ide.util.TipDialog" timestamp="1593069056913">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="2536" y="426" key="com.intellij.ide.util.TipDialog/67.27.1853.1173/1920.0.1920.1200@1920.0.1920.1200" timestamp="1592643974814" />
+    <state x="662" y="443" key="com.intellij.ide.util.TipDialog/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593069056913" />
+    <state x="302" y="339" width="1372" height="547" key="new project wizard" timestamp="1593096863823">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="302" y="339" width="1372" height="547" key="new project wizard/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1593096863823" />
+    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1592762091371">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup/67.27.1853.1173/1920.0.1920.1200@67.27.1853.1173" timestamp="1592762091371" />
+  </component>
+</project>

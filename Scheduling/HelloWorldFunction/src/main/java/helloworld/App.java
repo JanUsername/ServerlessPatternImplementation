@@ -1,4 +1,4 @@
-package App;
+package helloworld;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

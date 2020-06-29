@@ -1,4 +1,4 @@
-package App;
+package TheAggregator;
 
 import java.util.Collections;
 import java.util.HashMap;

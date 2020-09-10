@@ -2,15 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for A sample Hello World created for SAM CLI." enabled="true">
+        <sourceOutputDir name="../HelloWorldFunction/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../HelloWorldFunction/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HelloWorld" />
+        <module name="ModMessagingPatterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HelloWorld" target="1.8" />
+      <module name="ModMessagingPatterns" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

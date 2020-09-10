@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FanOutFanIn.iml" filepath="$PROJECT_DIR$/FanOutFanIn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWorldFunction/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorldFunction/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DirFanOutFanIn/ModFanOutFanIn.iml" filepath="$PROJECT_DIR$/DirFanOutFanIn/ModFanOutFanIn.iml" />
     </modules>
   </component>
 </project>

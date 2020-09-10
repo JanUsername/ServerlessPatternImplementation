@@ -1,7 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cee6b370-72e2-4c00-9896-557edd0a140c" name="Default Changelist" comment="" />
+    <list default="true" id="cee6b370-72e2-4c00-9896-557edd0a140c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FanOutFanIn/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/helloworld/FanIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/helloworld/FanIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/helloworld/FanOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/helloworld/FanOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/helloworld/GatewayResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/helloworld/GatewayResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-cognitoidentity-1.11.379.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-java-sdk-cognitoidentity-1.11.379.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-core-1.11.379.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-java-sdk-core-1.11.379.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-kinesis-1.11.379.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-java-sdk-kinesis-1.11.379.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-kms-1.11.379.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-java-sdk-kms-1.11.379.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-s3-1.11.379.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-java-sdk-s3-1.11.379.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-sns-1.11.379.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-java-sdk-sns-1.11.379.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-sqs-1.11.379.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-java-sdk-sqs-1.11.379.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-lambda-java-core-1.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-lambda-java-core-1.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/aws-lambda-java-events-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/aws-lambda-java-events-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/commons-codec-1.10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/httpclient-4.5.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/httpclient-4.5.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/httpcore-4.4.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/httpcore-4.4.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/ion-java-1.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/ion-java-1.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-annotations-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/jackson-annotations-2.6.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-core-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/jackson-core-2.6.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-databind-2.6.7.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/jackson-databind-2.6.7.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-dataformat-cbor-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/jackson-dataformat-cbor-2.6.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/jmespath-java-1.11.379.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/jmespath-java-1.11.379.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/Function/lib/joda-time-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/Function/lib/joda-time-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/.aws-sam/build/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/.aws-sam/build/template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/ModFanOutFanIn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/src/main/java/helloworld/FanIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/src/main/java/PackageFanOutFanIn/FanIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/src/main/java/helloworld/FanOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/src/main/java/PackageFanOutFanIn/FanOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/src/main/java/helloworld/GatewayResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/DirFanOutFanIn/src/main/java/PackageFanOutFanIn/GatewayResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/target/classes/helloworld/FanIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/target/classes/helloworld/FanOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/HelloWorldFunction/target/classes/helloworld/GatewayResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FanOutFanIn/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../FanOutFanIn/template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/ResponseabilitySegregation/WeatherInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/ResponseabilitySegregation/WeatherInsert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/ResponseabilitySegregation/WeatherPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/ResponseabilitySegregation/WeatherPojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/ResponseabilitySegregation/WeatherQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/ResponseabilitySegregation/WeatherQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/TheAggregator/AggregatorLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/TheAggregator/AggregatorLambda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/TheAggregator/AggregatorMSA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/TheAggregator/AggregatorMSA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/TheAggregator/GatewayResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/TheAggregator/GatewayResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/TheRouter/RouterLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/TheRouter/RouterLambda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/TheRouter/RouterPayloadPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/TheRouter/RouterPayloadPojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/TheRouter/RouterTaskA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/TheRouter/RouterTaskA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/TheRouter/RouterTaskB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/TheRouter/RouterTaskB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/TheRouter/RouterTaskC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/TheRouter/RouterTaskC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-core-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/aws-java-sdk-core-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-dynamodb-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/aws-java-sdk-dynamodb-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-kms-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/aws-java-sdk-kms-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-lambda-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/aws-java-sdk-lambda-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-s3-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/aws-java-sdk-s3-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/aws-lambda-java-core-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/aws-lambda-java-core-1.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/aws-lambda-java-events-3.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/aws-lambda-java-events-3.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/commons-codec-1.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/httpclient-4.5.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/httpclient-4.5.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/httpcore-4.4.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/httpcore-4.4.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/ion-java-1.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/ion-java-1.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-annotations-2.11.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/jackson-annotations-2.11.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-core-2.11.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/jackson-core-2.11.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-databind-2.11.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/jackson-databind-2.11.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-dataformat-cbor-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/jackson-dataformat-cbor-2.6.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/jmespath-java-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/jmespath-java-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/Function/lib/joda-time-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/Function/lib/joda-time-2.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/.aws-sam/build/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/.aws-sam/build/template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/ModMessagingPatterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/ResponseabilitySegregation/WeatherInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/ResponseabilitySegregation/WeatherInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/ResponseabilitySegregation/WeatherPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/ResponseabilitySegregation/WeatherPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/ResponseabilitySegregation/WeatherQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/ResponseabilitySegregation/WeatherQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/TheAggregator/AggregatorLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/TheAggregator/AggregatorLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/TheAggregator/AggregatorMSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/TheAggregator/AggregatorMSA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/TheAggregator/GatewayResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/TheAggregator/GatewayResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/TheRouter/RouterLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/TheRouter/RouterLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/TheRouter/RouterPayloadPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/TheRouter/RouterPayloadPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/TheRouter/RouterTaskA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/TheRouter/RouterTaskA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/TheRouter/RouterTaskB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/TheRouter/RouterTaskB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/HelloWorldFunction/src/main/java/TheRouter/RouterTaskC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/DirMessaginPattern/src/main/java/TheRouter/RouterTaskC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MessaginPatternLambda/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessaginPatternLambda/template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollingEventProcessor/PollingEventProcessor/.aws-sam/build/Function/PollingEventProcessor/DynamoDBConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollingEventProcessor/PollingEventProcessor/.aws-sam/build/Function/PollingEventProcessor/PollingEventProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PollingEventProcessor/PollingEventProcessor/.aws-sam/build/Function/PollingEventProcessor/PollingEventProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollingEventProcessor/PollingEventProcessor/src/main/java/PollingEventProcessor/DynamoDBUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PollingEventProcessor/PollingEventProcessor/src/main/java/PollingEventProcessor/DynamoDBUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollingEventProcessor/PollingEventProcessor/src/main/java/PollingEventProcessor/PollingEventProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PollingEventProcessor/PollingEventProcessor/src/main/java/PollingEventProcessor/PollingEventProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/.idea/SNS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SNS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/HelloWorldFunction/HelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/HelloWorldFunction/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/HelloWorldFunction/src/main/java/FanOutFanIn/FanIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/HelloWorldFunction/src/main/java/FanOutFanIn/FanOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/HelloWorldFunction/src/main/java/FanOutFanIn/GatewayResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/SNS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/events/event.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SNS/template.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/DistributedTrigger/DTtoSNS.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/DistributedTrigger/DTtoSNS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/DistributedTrigger/MicroserviceA.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/DistributedTrigger/MicroserviceA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/DistributedTrigger/MicroserviceB.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/DistributedTrigger/MicroserviceB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/DistributedTrigger/MicroserviceC.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/DistributedTrigger/MicroserviceC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/FiFo/FiFo.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/FiFo/FiFo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/FrugalConsumer/AWSDocHandlerSQS.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/FrugalConsumer/AWSDocHandlerSQS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/FrugalConsumer/DirectToSQS.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/FrugalConsumer/DirectToSQS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/GatewayResponse/GatewayResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/GatewayResponse/GatewayResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/ResponsabilitySegregation/WeatherInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/ResponsabilitySegregation/WeatherInsert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/ResponsabilitySegregation/WeatherPojo.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/ResponsabilitySegregation/WeatherPojo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/ResponsabilitySegregation/WeatherQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/ResponsabilitySegregation/WeatherQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/ScalableWebhook/LambdaToSQS.class" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/ScalableWebhook/LambdaToSQS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-core-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/aws-java-sdk-core-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-dynamodb-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/aws-java-sdk-dynamodb-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-kms-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/aws-java-sdk-kms-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-s3-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/aws-java-sdk-s3-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-sns-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/aws-java-sdk-sns-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-sqs-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/aws-java-sdk-sqs-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/aws-lambda-java-core-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/aws-lambda-java-core-1.2.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/aws-lambda-java-events-3.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/aws-lambda-java-events-3.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/commons-codec-1.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/commons-logging-1.1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/httpclient-4.5.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/httpclient-4.5.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/httpcore-4.4.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/httpcore-4.4.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/ion-java-1.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/ion-java-1.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-annotations-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/jackson-annotations-2.6.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-core-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/jackson-core-2.6.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-databind-2.6.7.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/jackson-databind-2.6.7.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-dataformat-cbor-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/jackson-dataformat-cbor-2.6.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/jmespath-java-1.11.808.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/jmespath-java-1.11.808.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/Function/lib/joda-time-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/Function/lib/joda-time-2.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/.aws-sam/build/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/.aws-sam/build/template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/SQSSubmodule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/SQSSubmodule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/DistributedTrigger/DTtoSNS.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/DistributedTrigger/DTtoSNS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/DistributedTrigger/MicroserviceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/DistributedTrigger/MicroserviceA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/DistributedTrigger/MicroserviceB.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/DistributedTrigger/MicroserviceB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/DistributedTrigger/MicroserviceC.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/DistributedTrigger/MicroserviceC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/FiFo/FiFo.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/FiFo/FiFo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/FrugalConsumer/AWSDocHandlerSQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/FrugalConsumer/AWSDocHandlerSQS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/FrugalConsumer/DirectToSQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/FrugalConsumer/DirectToSQS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/GatewayResponse/GatewayResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/GatewayResponse/GatewayResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/src/main/java/ScalableWebhook/LambdaToSQS.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirSQS/src/main/java/ScalableWebhook/LambdaToSQS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/target/classes/FiFo/FiFo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/target/classes/FiFo/LambdaThrottlerTOS3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/target/classes/FrugalConsumer/DirectToSQS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/target/classes/FrugalConsumer/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/target/classes/GatewayResponse/GatewayResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/target/classes/META-INF/SQSSubmodule.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorldFunction/target/classes/ScalableWebhook/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_379.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kms_1_11_379.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_s3_1_11_379.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sqs_1_11_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_amazonaws_aws_lambda_java_core_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_amazonaws_aws_lambda_java_events_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_379.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__joda_time_joda_time_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/helloworld/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/helloworld/GatewayResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-core-1.11.379.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-kms-1.11.379.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-s3-1.11.379.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/aws-java-sdk-sqs-1.11.24.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/aws-lambda-java-core-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/aws-lambda-java-events-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/ion-java-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-annotations-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-core-2.6.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-databind-2.6.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/jackson-dataformat-cbor-2.6.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/jmespath-java-1.11.379.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/Function/lib/joda-time-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/.aws-sam/build/template.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/HelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/src/main/java/helloworld/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/src/main/java/helloworld/GatewayResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/HelloWorldFunction/src/test/java/helloworld/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/ScalableWebhook.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/events/event.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableWebhook/template.yaml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +220,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +231,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dYWARGrOFqPDKYimnedCVG82CV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,7 +239,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CollectionOfFailedTries/book/HelloWorldZip/HelloWorldLambdaJava" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

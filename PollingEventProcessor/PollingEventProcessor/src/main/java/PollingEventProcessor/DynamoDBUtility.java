@@ -31,7 +31,7 @@ public class DynamoDBUtility {
         return items;
     }
 
-    public static String getField(Iterator<Item> iterator)  {//throws JsonProcessingException
+    public static String getField(Iterator<Item> iterator, String fieldName)  {//throws JsonProcessingException
         while (iterator.hasNext()) {
             Item item = iterator.next();
             String resultAsJsonString = item.toJSON();
@@ -42,7 +42,6 @@ public class DynamoDBUtility {
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
             }
-            final String fieldName = "CycleCount";
             System.out.println(node.get(fieldName).toString());
              if (node.has(fieldName)) {
                 return node.get(fieldName).toString();

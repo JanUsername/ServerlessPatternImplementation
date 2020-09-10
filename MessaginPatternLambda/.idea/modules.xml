@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloWorldFunction/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorldFunction/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/MessaginPatternLambda.iml" filepath="$PROJECT_DIR$/MessaginPatternLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DirMessaginPattern/ModMessagingPatterns.iml" filepath="$PROJECT_DIR$/DirMessaginPattern/ModMessagingPatterns.iml" />
     </modules>
   </component>
 </project>

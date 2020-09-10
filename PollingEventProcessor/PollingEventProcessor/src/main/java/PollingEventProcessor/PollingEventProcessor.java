@@ -19,13 +19,14 @@ public class PollingEventProcessor implements RequestHandler<Object, Object> {
     private String resultAsJsonString;
 
     private Iterator<Item> iterator;
-    private Item item = null;
+
 
     @Override
     public Object handleRequest(Object o, Context context) {
         dynamoDB = DynamoDBUtility.connectToDB();
         iterator = DynamoDBUtility.queryTable(dynamoDB, tableName).iterator();
-        resultAsJsonString = DynamoDBUtility.getField(iterator);
+        resultAsJsonString = DynamoDBUtility.getField(iterator,fieldName);
+
         if(resultAsJsonString.equals(state)){
             System.out.println("equals yay");
         }else{

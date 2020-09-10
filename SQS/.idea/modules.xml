@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SQS.iml" filepath="$PROJECT_DIR$/SQS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWorldFunction/SQSSubmodule.iml" filepath="$PROJECT_DIR$/HelloWorldFunction/SQSSubmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DirSQS/SQSSubmodule.iml" filepath="$PROJECT_DIR$/DirSQS/SQSSubmodule.iml" />
     </modules>
   </component>
 </project>
